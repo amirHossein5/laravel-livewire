@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .form-control{
+        @apply  my-2 border border-gray-500 w-full p-3 outline-none rounded-lg shadow focus:ring-4 focus:ring-offset-blue-400 transition-all focus:border-opacity-0;
+    }
+}
