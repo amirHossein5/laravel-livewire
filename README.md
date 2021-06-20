@@ -10,5 +10,13 @@
     
 ## features:
    <p> real time add comment (with livewire)  and calculate rating without page refreshes (with emiting) </p>
+   
+   
+   
+   
+## install
+<code>git clone https://github.com/amirHossein5/upload-images-livewire.git</code></br></br>
+<code>composer install</code>
+<code>npm install</code>
  
 
