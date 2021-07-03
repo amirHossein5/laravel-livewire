@@ -15,7 +15,7 @@
    
    
 ## install
-<code>git clone https://github.com/amirHossein5/upload-images-livewire.git</code></br></br>
+<code>git clone https://github.com/amirHossein5/laravel-livewire.git</code></br></br>
 <code>composer install</code>
 <code>npm install</code>
  
