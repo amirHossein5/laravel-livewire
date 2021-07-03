@@ -1,7 +1,7 @@
 <div>
     <form action="" class="pb-16" wire:submit.prevent="submit">
         <div class="py-3">
-            <textarea cols="30" rows="10" wire:model="body" @error('body')
+            <textarea cols="30" rows="10" wire:model.lazy="body" @error('body')
                 class="border-red-500 form-control bg-transparent" @enderror
                 class="form-control bg-transparent"></textarea>
             @error('body')

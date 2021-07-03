@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use App\Models\Book;
+use App\Models\User;
 use Illuminate\Support\Str;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
@@ -26,7 +27,7 @@ class BookFactory extends Factory
         return [
             'title'=> $title,
             'description'=>$this->faker->text(5000),
-            'user_id'=>1,
+            'user_id'=>5,
             'slug'=>Str::slug($title)
         ];
     }

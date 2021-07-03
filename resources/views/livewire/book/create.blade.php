@@ -23,7 +23,7 @@
             <label for="description" class="select-none">description:</label>
             <textarea id="description" cols="50" rows="10" @error('description')
                 class="border-red-500 form-control bg-transparent" @enderror class="form-control bg-transparent"
-                wire:model="description"></textarea>
+                wire:model.lazy="description"></textarea>
             @error('description')
                 <p class="text-red-500">{{ $message }}</p>
             @enderror

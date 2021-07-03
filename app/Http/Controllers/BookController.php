@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Book;
-use Illuminate\Http\Request;
+use App\Models\User;
 
 class BookController extends Controller
 {
@@ -14,8 +14,7 @@ class BookController extends Controller
      */
     public function index()
     {
-        $books = Book::with(['user','comments'])->paginate('10');
-        return view('books.index',compact('books'));
+        return view('books.index');
     }
 
     /**

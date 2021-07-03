@@ -15,9 +15,9 @@ class Create extends Component
         'body' => 'required'
     ];
 
-    public function updated($prop)
+    public function updated($property)
     {
-        $this->validateOnly($prop);
+        $this->validateOnly($property);
     }
 
     public function submit()
