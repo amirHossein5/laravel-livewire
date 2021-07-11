@@ -18,6 +18,7 @@
 <code>git clone https://github.com/amirHossein5/laravel-livewire.git</code></br></br>
 <code>composer install</code>
 <code>npm install</code>
+<code>npm run prod</code>
 <code>composer run-script post-root-package-install</code>
 
 <br>
