@@ -5,23 +5,24 @@
     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Favatars3.githubusercontent.com%2Fu%2F59030169%3Fs%3D200%26v%3D4&f=1&nofb=1" alt="alpinejs" width="150">
 </p>
 
-## packages:
-   <p> livewire - alpinejs - tailwindcss </p>
+## Packages
     
-## features:
-   <p> real time add comment (with livewire)  and calculate rating without page refreshes (with emiting) </p>
+livewire - alpinejs - tailwindcss 
+    
+    
+## Features:
+    
+real time add comment (with livewire)  and calculate rating without page refreshes (with emiting)
    
    
-   
-   
-## install
-<code>git clone https://github.com/amirHossein5/laravel-livewire.git</code></br></br>
-<code>composer install</code>
-<code>npm install</code>
-<code>npm run prod</code>
-<code>composer run-script post-root-package-install</code>
-
-<br>
-set your database and :
-<code>php artisan migrate</code>
+## Installation
+    
+```bash
+git clone https://github.com/amirHossein5/laravel-livewire.git
+```
+```composer install```
+```npm install```
+```npm run prod```
+```composer run-script post-root-package-install```
+```php artisan migrate```
 
