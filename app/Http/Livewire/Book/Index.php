@@ -13,6 +13,7 @@ class Index extends Component
     public function render()
     {
         $books = Book::with(['user', 'comments'])->paginate('10');
+        
         return view('livewire.book.index', ['books' => $books]);
     }
 }

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.master')
 
 @section('content')
     <section class="flex flex-col justify-center pt-3 min-h-screen text-gray-300 bg-gray-800">

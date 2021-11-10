@@ -1,7 +1,7 @@
-@extends('layouts.app')
+@extends('layouts.master')
 
 @section('content')
-    <section class="flex flex-row justify-center pt-3 min-h-screen text-gray-300 bg-gray-800">
+    <section class="flex flex-row justify-center min-h-screen pt-3 text-gray-300 bg-gray-800">
         <div class="w-2/3">
             @livewire('book.create')
         </div>
@@ -38,6 +38,5 @@
                 }
             }
         }
-
     </script>
 @endsection
