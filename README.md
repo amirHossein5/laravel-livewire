@@ -29,7 +29,7 @@ real time add comment (with livewire)  and calculate rating without page refresh
     
 |                                  |                                   |
 |----------------------------------|-----------------------------------|
-| <img src="screens/livewire-1" /> |  <img src="screens/livewire-2" /> |
-| <img src="screens/livewire-3" /> |  <img src="screens/livewire-4" /> |
-| <img src="screens/livewire-6" /> |
+| <img src="/screens/livewire-1.png" /> |  <img src="/screens/livewire-2.png" /> |
+| <img src="/screens/livewire-3.png" /> |  <img src="/screens/livewire-4.png" /> |
+| <img src="/screens/livewire-5.png" /> |  <img src="/screens/livewire-6.png" /> |
 
