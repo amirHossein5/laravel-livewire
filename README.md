@@ -10,7 +10,7 @@
 livewire - alpinejs - tailwindcss 
     
     
-## Features:
+## Features
     
 real time add comment (with livewire)  and calculate rating without page refreshes (with emiting)
    
