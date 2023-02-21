@@ -35,11 +35,21 @@ real time add comment (with livewire)  and calculate rating without page refresh
 ## Installation
 
     
-1. ```git clone https://github.com/amirHossein5/laravel-livewire.git```
-2. ```composer install```
-3. ```composer run-script post-root-package-install```
-4. configure database in env    
-5. ```php artisan migrate:fresh --seed```
+```sh
+git clone https://github.com/amirstr/laravel-livewire.git
+cd laravel-livewire
+```
+
+```sh
+composer install
+composer run-script post-root-package-install
+```
+
+fill database info in `.env`, Then:
+
+```
+php artisan migrate:fresh --seed
+```
     
     
 ## Screens
