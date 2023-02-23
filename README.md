@@ -36,7 +36,7 @@ real time add comment (with livewire)  and calculate rating without page refresh
 
     
 ```sh
-git clone https://github.com/amirstr/laravel-livewire.git
+git clone https://github.com/amirHossein5/laravel-livewire.git
 cd laravel-livewire
 ```
 
